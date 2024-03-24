@@ -1,0 +1,64 @@
+drop table UserRegistration;
+drop table JobCreation;
+drop table CategoryCreation;
+drop table ApplicationStatus;
+
+create table UserRegistration(
+UserId int primary key identity(1,1),
+UserName varchar(100),
+Password Varchar(100),
+Email varchar(100),
+Role varchar(100),
+CreatedBy varchar(100),
+CreatedOn datetime,
+ModifiedBy varchar(100),
+ModifiedOn datetime,
+DeletedBy varchar(100),
+DeletedOn datetime,
+isDeleted bit,
+)
+
+create table JobCreation(
+JobId int primary key identity(1,1),
+CompanyName varchar(100),
+MinExperience Varchar(100),
+MaxExperience varchar(100),
+Salary float,
+Description varchar(max),
+Category varchar(100),
+CreatedBy varchar(100),
+CreatedOn datetime,
+ModifiedBy varchar(100),
+ModifiedOn datetime,
+DeletedBy varchar(100),
+DeletedOn datetime,
+isDeleted bit,
+)
+
+
+create table CategoryCreation(
+CategoryId int primary key identity(1,1),
+CategoryName varchar(100),
+Description varchar(max),
+Category varchar(100),
+CreatedBy varchar(100),
+CreatedOn datetime,
+ModifiedBy varchar(100),
+ModifiedOn datetime,
+DeletedBy varchar(100),
+DeletedOn datetime,
+isDeleted bit,
+)
+
+create table ApplicationStatus(
+ApplicationId int primary key identity(1,1),
+ApplicantName varchar(100),
+Status varchar(max),
+CreatedBy varchar(100),
+CreatedOn datetime,
+ModifiedBy varchar(100),
+ModifiedOn datetime,
+DeletedBy varchar(100),
+DeletedOn datetime,
+isDeleted bit,
+)

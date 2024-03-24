@@ -1,0 +1,182 @@
+C:\Users\sabal>cd D:\officework\JobPortal
+
+C:\Users\sabal>cd D:\officework\JobPortal
+
+C:\Users\sabal>cd ..
+
+C:\Users>cd ..
+
+C:\>cd D:\officework\JobPortal
+
+C:\>cd D
+
+C:\d>cd ..
+
+C:\>D:
+
+D:\officework\JobPortal>git init
+Initialized empty Git repository in D:/officework/JobPortal/.git/
+
+D:\officework\JobPortal>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vs/
+        JobPortal.sln
+        JobPortal/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\officework\JobPortal>git add .
+error: open(".vs/JobPortal/FileContentIndex/3fde266e-0992-4eab-9a58-8f985650ebd6.vsidx"): Permission denied
+error: unable to index file '.vs/JobPortal/FileContentIndex/3fde266e-0992-4eab-9a58-8f985650ebd6.vsidx'
+fatal: adding files failed
+
+D:\officework\JobPortal>git add .
+
+D:\officework\JobPortal>git commit-m 'first commit'
+git: 'commit-m' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit-tree
+
+D:\officework\JobPortal>git commit -m 'first commit'
+error: pathspec 'commit'' did not match any file(s) known to git
+
+D:\officework\JobPortal>git commit -m "first commit"
+[master (root-commit) f72a7df] first commit
+ 91 files changed, 75072 insertions(+)
+ create mode 100644 .gitIgnore
+ create mode 100644 JobPortal.sln
+ create mode 100644 JobPortal/Controllers/HomeController.cs
+ create mode 100644 JobPortal/JobPortal.csproj
+ create mode 100644 JobPortal/JobPortal.csproj.user
+ create mode 100644 JobPortal/Models/ErrorViewModel.cs
+ create mode 100644 JobPortal/Program.cs
+ create mode 100644 JobPortal/Properties/launchSettings.json
+ create mode 100644 JobPortal/Views/Home/Index.cshtml
+ create mode 100644 JobPortal/Views/Home/Privacy.cshtml
+ create mode 100644 JobPortal/Views/Shared/Error.cshtml
+ create mode 100644 JobPortal/Views/Shared/_Layout.cshtml
+ create mode 100644 JobPortal/Views/Shared/_Layout.cshtml.css
+ create mode 100644 JobPortal/Views/Shared/_ValidationScriptsPartial.cshtml
+ create mode 100644 JobPortal/Views/_ViewImports.cshtml
+ create mode 100644 JobPortal/Views/_ViewStart.cshtml
+ create mode 100644 JobPortal/appsettings.Development.json
+ create mode 100644 JobPortal/appsettings.json
+ create mode 100644 JobPortal/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+ create mode 100644 JobPortal/obj/Debug/net8.0/JobPortal.AssemblyInfo.cs
+ create mode 100644 JobPortal/obj/Debug/net8.0/JobPortal.AssemblyInfoInputs.cache
+ create mode 100644 JobPortal/obj/Debug/net8.0/JobPortal.GeneratedMSBuildEditorConfig.editorconfig
+ create mode 100644 JobPortal/obj/Debug/net8.0/JobPortal.GlobalUsings.g.cs
+ create mode 100644 JobPortal/obj/Debug/net8.0/JobPortal.RazorAssemblyInfo.cache
+ create mode 100644 JobPortal/obj/Debug/net8.0/JobPortal.RazorAssemblyInfo.cs
+ create mode 100644 JobPortal/obj/Debug/net8.0/JobPortal.assets.cache
+ create mode 100644 JobPortal/obj/JobPortal.csproj.nuget.dgspec.json
+ create mode 100644 JobPortal/obj/JobPortal.csproj.nuget.g.props
+ create mode 100644 JobPortal/obj/JobPortal.csproj.nuget.g.targets
+ create mode 100644 JobPortal/obj/project.assets.json
+ create mode 100644 JobPortal/obj/project.nuget.cache
+ create mode 100644 JobPortal/wwwroot/css/site.css
+ create mode 100644 JobPortal/wwwroot/favicon.ico
+ create mode 100644 JobPortal/wwwroot/js/site.js
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/LICENSE
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.js
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js
+ create mode 100644 JobPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map
+ create mode 100644 JobPortal/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt
+ create mode 100644 JobPortal/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js
+ create mode 100644 JobPortal/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+ create mode 100644 JobPortal/wwwroot/lib/jquery-validation/LICENSE.md
+ create mode 100644 JobPortal/wwwroot/lib/jquery-validation/dist/additional-methods.js
+ create mode 100644 JobPortal/wwwroot/lib/jquery-validation/dist/additional-methods.min.js
+ create mode 100644 JobPortal/wwwroot/lib/jquery-validation/dist/jquery.validate.js
+ create mode 100644 JobPortal/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js
+ create mode 100644 JobPortal/wwwroot/lib/jquery/LICENSE.txt
+ create mode 100644 JobPortal/wwwroot/lib/jquery/dist/jquery.js
+ create mode 100644 JobPortal/wwwroot/lib/jquery/dist/jquery.min.js
+ create mode 100644 JobPortal/wwwroot/lib/jquery/dist/jquery.min.map
+
+D:\officework\JobPortal>git status
+On branch master
+nothing to commit, working tree clean
+
+D:\officework\JobPortal>fit branch -M main
+'fit' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\officework\JobPortal>git branch -M branch
+
+D:\officework\JobPortal>git remote add origin https://github.com/akshada8102/JobPortal-Using-.NET-MVC.git
+
+D:\officework\JobPortal>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/akshada8102/JobPortal-Using-.NET-MVC.git'
+
+D:\officework\JobPortal>git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/akshada8102/JobPortal-Using-.NET-MVC.git'
+
+D:\officework\JobPortal>git branch
+* branch
+
+D:\officework\JobPortal>git checkout
+
+D:\officework\JobPortal>git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+D:\officework\JobPortal>git checkout -b /main
+fatal: '/main' is not a valid branch name.
+
+D:\officework\JobPortal>git checkout -b main
+Switched to a new branch 'main'
+
+D:\officework\JobPortal>git branch
+  branch
+* main
+
+D:\officework\JobPortal>git push -u origin main
